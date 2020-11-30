@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import PokemonList from './components/PokemonList';
-import PokemonDetail from './components/PokemonDetails'
+import PokemonDetail from './components/PokemonDetails';
+import PokemonSearch from './components/PokemonSearch';
 
 import api from "./services/api";
 
@@ -64,6 +65,14 @@ function App() {
   return (
     <div className='app'>
       <h1 className='title'>Pokedex</h1>
+      
+      <PokemonSearch 
+        className='search-content' 
+        setPokemons={setPokemons} 
+        getPokemon={getPokemon} 
+        getPokemons={getPokemons}
+        setPokemon={setPokemon}
+      />
 
       <div className='content-app'>
         <div className='left-side'>

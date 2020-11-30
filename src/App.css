@@ -23,7 +23,19 @@ html, body, #root{
     min-width: 600px;
     height: 500px;
     min-height: 500px;
+    background: chartreuse;
 }
+
+.content-app{
+    padding: 0px;
+    background: turquoise;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* .search-content{
+    width: 300px;
+} */
 
 .rigth-side{
     width: 300px;
@@ -51,13 +63,6 @@ h1{
     margin: 0px 0px 0px 0px;
     /* border-radius: 5px; */
     border: 1px solid #111;
-}
-
-.content-app{
-    padding: 0px;
-    background: turquoise;
-    display: flex;
-    flex-direction: row;
 }
 
 .buttons{
