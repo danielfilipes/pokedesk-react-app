@@ -1,0 +1,9 @@
+.pokemon-image{
+    width: 200px;
+    height: 100px;
+}
+
+.pokemon-types-list{
+    margin: 0px 0px 0px 40px;
+    list-style: circle;
+}

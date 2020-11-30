@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import PokemonList from './components/PokemonList';
-import PokemonDetail from './components/PokemonDetail'
+import PokemonDetail from './components/PokemonDetails'
 
 import api from "./services/api";
 
@@ -74,7 +74,7 @@ function App() {
 
         <div className='rigth-side'>
           {pokemon === false 
-            ? <p>Escolha um pokemon para visualizar os seus detalhes.</p> 
+            ? <p>Escolha um pokemon para visualizar suas informações.</p> 
             : <PokemonDetail pokemon = {pokemon} />}
         </div>
       </div>        
