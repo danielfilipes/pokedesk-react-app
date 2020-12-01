@@ -1,9 +1,38 @@
+.div-pokemon-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .pokemon-image{
     width: 200px;
-    height: 100px;
+    height: 200px;
 }
 
 .pokemon-types-list{
     margin: 0px 0px 0px 40px;
     list-style: circle;
+}
+
+.pokemon-types-list-item{
+    
+}
+
+.pokemon-detail-list{
+    list-style: none;
+    background: darkblue;
+    border-radius: 5px;
+    margin: 10px 10px 0px 10px;
+}
+
+.pokemon-name{
+    font-size: x-large;
+    background: darkgreen;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    padding: 5px;
+}
+
+.pokemon-detail-content{
+    padding: 5px;
 }

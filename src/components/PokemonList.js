@@ -4,7 +4,7 @@ import './PokemonList.css';
 
 function PokemonList({pokemons, pokemonClicked}){
     return(
-        <div>
+        <div className='list-of-pokemons'>
             <ul>
                 {
                     pokemons.map((value) => {

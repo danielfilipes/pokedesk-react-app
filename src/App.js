@@ -88,9 +88,9 @@ function App() {
         </div>
       </div>        
 
-      <div className='buttons'>
-        <button onClick={() => btnPreviousHandler()}>{"<<"}</button>
-        <button onClick={() => btnNextHandler()}>{">>"}</button>
+      <div className='div-buttons'>
+        <button onClick={() => btnPreviousHandler()} className='buttons'>{"<<"}</button>
+        <button onClick={() => btnNextHandler()} className='buttons'>{">>"}</button>
       </div>
     </div>     
   );
