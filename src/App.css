@@ -58,6 +58,10 @@ html, body, #root{
 h1{
     margin: 0px;
     padding: 0px;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    font-size: 1.8em;
 }
 
 .title{
@@ -70,6 +74,7 @@ h1{
 .div-buttons{
     margin: 10;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
@@ -77,6 +82,6 @@ h1{
 .buttons{
     font-size: x-large;
     border-radius: 50px;
-    padding: 8px;
-    margin: 5px;
+    padding: 3px;
+    margin: 0px;
 }
