@@ -20,17 +20,19 @@
 
 .pokemon-detail-list{
     list-style: none;
-    background: darkblue;
+    background: #eee;
     border-radius: 5px;
     margin: 10px 10px 0px 10px;
+    border: 1px solid #222;
 }
 
 .pokemon-name{
     font-size: x-large;
-    background: darkgreen;
+    background: #ffe238;
     border-radius: 5px 5px 0px 0px;
     text-align: center;
     padding: 5px;
+    border-bottom: 1px solid #222;
 }
 
 .pokemon-detail-content{
